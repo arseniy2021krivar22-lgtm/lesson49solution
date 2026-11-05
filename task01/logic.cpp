@@ -4,7 +4,7 @@ void reverse(int* array, int size) {
 	for (int i = 0; i < n; i++) {
 		int   t = array[i];
 		array[i] = array [size - 1-i];
-		array [size - 1-i] = t;
+		array [size - 1-i] = t;		
 	}
 
 
