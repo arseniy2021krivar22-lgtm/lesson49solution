@@ -9,8 +9,6 @@ void test(int number, bool expected, string name) {
 	cout << msg << endl;
 }
 
-
-
 void run_all_tests() {
 	test(6, true, "test01");
 	test(28, true, "test02");
