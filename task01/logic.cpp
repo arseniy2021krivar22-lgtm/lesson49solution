@@ -1,4 +1,11 @@
 #include "test.h"
 void reverse(int* array, int size) {
+	int n = size / 2;
+	for (int i = 0; i < n; i++) {
+		int   t = array[i];
+		array[i] = array [size - 1-i];
+		array [size - 1-i] = t;
+	}
+
 
 }
